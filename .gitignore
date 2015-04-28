@@ -1,0 +1,9 @@
+*.JPG
+*.dll
+*.obj
+*.Debug
+*.Release
+Makefile
+*.exe
+debug/
+release/
