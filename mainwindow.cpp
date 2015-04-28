@@ -22,4 +22,7 @@ void MainWindow::on_load_clicked()
     cv::resize(test,test,cv::Size(400,300));
     QImage img((const unsigned char*)(test.data), test.cols, test.rows, QImage::Format_RGB888);
     ui->label->setPixmap(QPixmap::fromImage(img));
+
+
+
 }
